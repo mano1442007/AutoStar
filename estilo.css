@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #A406FF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    background-color: #000000;
+    background-image: url('carro.png');
+    background-position: 110%;
+    background-repeat: no-repeat;
+    height:300px;
+    display: flex;
+    align-items: center;
+}
+
+ .logo > img {
+   max-width: 400px;
+   height: auto;
+}
+
+header .opsoes  {
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.destaques {
+   padding:20px
+}
+.destaquelimite{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+   
+    max-width:1280px;
+    margin:0 auto;
+}
+
+.destaque-item {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    width: 22%;
+    height:290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaque-item img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.modelos {
+    margin: 20px;
+    text-align: center;
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: #A406FF;
+}
+
+.modelos-lista {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.modelo img {
+    width: 320px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.promocoes {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.carro {
+    background-color: #444;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 22%;
+
+}
+
+.carro img {
+    width: 330px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #A406FF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.estandate{
+    text-align: center;
+    background-color: #000000;
+}
+
+.img2{
+    display: flex;
+            justify-content: flex-end;
+}
+a{
+    color: #ffffff;
+}
